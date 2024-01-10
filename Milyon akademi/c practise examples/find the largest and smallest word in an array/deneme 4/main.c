@@ -20,7 +20,7 @@
 	strcpy(max,word[0]);
 	strcpy(min,word[0]);
 
-	for(i=1;i<j;i++){
+	for(i=1;i<=j;i++){
 	if(strlen(max)<strlen(word[i])){
 		strcpy(max,word[i]);
 	}
