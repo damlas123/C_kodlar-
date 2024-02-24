@@ -1,6 +1,6 @@
 [Project]
-FileName=make division without using division symbole.dev
-Name=make division without using divison symbol
+FileName=fibonacci series.dev
+Name=fibonacci series
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=main.c
+FileName=m.c
 CompileCpp=0
 Folder=
 Compile=1
