@@ -1,6 +1,6 @@
 [Project]
 FileName=find an array element with pointer.dev
-Name=find max and min value with pointer
+Name=max and min
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=find max and min value with pointer\main.c
+FileName=main1.c
 CompileCpp=0
 Folder=
 Compile=1
