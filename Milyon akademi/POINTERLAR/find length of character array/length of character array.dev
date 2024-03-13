@@ -1,6 +1,6 @@
 [Project]
-FileName=change the element of array.dev
-Name=change elements with 2 pointers
+FileName=length of character array.dev
+Name=length of character array
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=main12.c
+FileName=main.c
 CompileCpp=0
 Folder=
 Compile=1
