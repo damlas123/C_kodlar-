@@ -1,27 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
 
 int main(int argc, char *argv[]) {
-	int n;
-	printf("enter the size of array:");
+	int n,m;
+	printf("enter the row number:");
 	scanf("%d",&n);
-	int array[n];
-	srand(time(0));
-	int i,*p,temp;
-	p=(int *)calloc(n,sizeof(int));
+	printf("enter the coulomn number:");
+	scanf("%d",&m);
+	int **matrix;
+	matrix=(int **)calloc(n,sizeof(int));
+	int i,j;
+	printf("enter the number:");
 	for(i=0;i<n;i++){
-		*(p+i)=rand()%100;
-		printf("%d\t",*(p+i));
-	}
-    temp=*(p);
-	for(i=1;i<n;i++){
-		if(temp>*(p+i)){
-			temp=*(p+i);
+		matrix[i]=(int *)calloc(m,sizeof(int));
+		for(j=0;j<m;j++){
+			scanf("%d",&matrix[i][j]);
 		}
 	}
-	printf("the smallest number of array is:%d",temp);
-	
+	printf("array created like that:\n");
+	for(i=0;i<n;i++){
+		for(j=0;j<m;j++){
+			printf("%d\t",matrix[i][j]);
+		}
+		printf("\n");
+	}
 	return 0;
 }
