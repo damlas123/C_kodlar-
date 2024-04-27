@@ -28,18 +28,18 @@ int calculate(fruit *a){
 	int sum=0;
 	if(strcmp(a->shape,"round")==0){
 		if(a->weight>=200.0){
-			sum=3+((a->price*2)*a->weight);
+			sum=2*((a->price+3)*a->quantity);
 		}
 		else{
-			sum=2*a->price*a->weight*a->quantity;
+			sum=2*a->price*a->quantity;
 		}
 	}
 	else{
 		if(a->weight>=200.0){
-			sum=(a->weight*a->price*a->quantity)+3;
+			sum=(a->price*a->quantity)+3;
 		}
 		else{
-			sum=a->weight*a->price*a->quantity;
+			sum=a->price*a->quantity;
 		}
 	}
 	return sum;
