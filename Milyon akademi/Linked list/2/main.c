@@ -5,22 +5,25 @@ typedef struct n{
 	int x;
 	struct n *next;
 }node;
-int main(int argc, char *argv[]) {
-	node *root;
-	root=(node *)malloc(sizeof(node));
-	root->x=20;
-	root->next=(node *)malloc(sizeof(node ));
-	root->next->x=25;
-	root->next->next=(node *)malloc(sizeof(node));
-	root->next->next->x=30;
-	root->next->next->next=NULL;
-	node *iter;
-	iter=root;
-	int i;
-	while(iter!=NULL){
-		printf("%d. value is %d\n",i,iter->x);
-		iter=iter->next;
-		i++;
+void bastir (node *r){
+	while(r!=NULL){
+		printf("%d",r->x);
+		r=r->next;
 	}
+}
+int main(int argc, char *argv[]) {
+    node *root;
+    root=(node *)malloc(sizeof(node));
+    root->x=500;
+    node *iter;
+    
+    int i;
+	for(i=0;i<5;i++){
+		iter->next=(node *)malloc(sizeof(node));
+		iter=iter->next;
+		iter->x=i*10;
+		iter->next=NULL;
+	}
+	bastir(root);
 	return 0;
 }
