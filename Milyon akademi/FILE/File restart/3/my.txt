@@ -1,0 +1,5 @@
+damla 12
+reyhan 20
+zeynep 19
+sena 45
+deniz 78
