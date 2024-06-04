@@ -1,0 +1,10 @@
+ACCOUNT	NAME	BALANCE
+damla 	 1 	 1000
+sena 	 2 	 750
+reyhan 	 3 	 0
+ender 	 4 	 -980
+zeynep 	 5 	 0
+rabia 	 6 	 0
+dilara 	 7 	 -630
+salih 	 8 	 -950
+salih 	 8 	 -950
